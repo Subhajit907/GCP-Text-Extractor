@@ -50,5 +50,5 @@ extracted_text = extract_text(processed_image)
 bill_information = extract_information(extracted_text)
 
 # Display the extracted information
-for key, value in bill_information.items():
-    print(f"{key}: {value[0] if value else 'Not Found'}")
+#for key, value in bill_information.items():
+ #   print(f"{key}: {value[0] if value else 'Not Found'}")
